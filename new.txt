@@ -1,0 +1,3 @@
+I AM A TEXT appending text into file 
+DDD 
+EEE 
