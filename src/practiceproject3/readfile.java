@@ -1,12 +1,11 @@
 package practiceproject3;
-import java.io.File;  // Import the File class
-import java.io.FileNotFoundException;  // Import this class to handle errors
-import java.util.Scanner; // Import the Scanner class to read text files
-
+import java.io.File; 
+import java.io.FileNotFoundException;
+import java.util.Scanner; 
 public class readfile {
   public static void main(String[] args) {
     try {
-      File myObj = new File("new.txt");
+      File myObj = new File("new1.txt");
       Scanner myReader = new Scanner(myObj);
       while (myReader.hasNextLine()) {
         String data = myReader.nextLine();

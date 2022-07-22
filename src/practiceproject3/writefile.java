@@ -1,12 +1,10 @@
 package practiceproject3;
-
-import java.io.FileWriter;   // Import the FileWriter class
-import java.io.IOException;  // Import the IOException class to handle errors
-
+import java.io.FileWriter; 
+import java.io.IOException; 
 public class writefile {
   public static void main(String[] args) {
     try {
-      FileWriter myWriter = new FileWriter("new.txt");
+      FileWriter myWriter = new FileWriter("new1.txt");
       myWriter.write("I AM A TEXT");
       myWriter.close();
       System.out.println("Successfully wrote to the file.");

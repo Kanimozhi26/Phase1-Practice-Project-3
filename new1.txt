@@ -1,0 +1,6 @@
+I AM A TEXTAAA
+BBB
+CCC
+ appending text into file 
+DDD 
+EEE 

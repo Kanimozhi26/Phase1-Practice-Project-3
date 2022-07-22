@@ -1,11 +1,10 @@
 package practiceproject3;
-import java.io.File;  // Import the File class
-import java.io.IOException;  // Import the IOException class to handle errors
-
+import java.io.File;
+import java.io.IOException;  
 public class createfile {
   public static void main(String[] args) {
     try {
-      File myObj = new File("new.txt");
+      File myObj = new File("new1.txt");
       if (myObj.createNewFile()) {
         System.out.println("File created: " + myObj.getName());
       } else {
